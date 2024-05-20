@@ -1,0 +1,52 @@
+/* ROBOTO FONT LINK START  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+/* ROBOTO FONT LINK END */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    background: #f5f5f9;
+}
+
+/* HOMEPAGE DESIGN START  */
+
+
+/* VERTICAL NAV ACCORDION DESIGN START  */
+
+.body-of-home .vertical-accordion-nav {
+    background: #038791;
+}
+
+.body-of-home .logo svg {
+    width: 90%;
+}
+
+.vertical-nav{
+    height: 100vh;
+}
+
+.accordion-btn-header-custom-class .accordion-button::after {
+    display: none;
+}
+
+
+.accordion-item {
+    background-color: transparent !important;
+    border: none;
+}
+
+
+/* VERTICAL NAV ACCORDION DESIGN START  */
+
+
+/* HOMEPAGE DESIGN END */
