@@ -1,3 +1,5 @@
+/* HOMEPAGE DESIGN START  */
+
 /* ROBOTO FONT LINK START  */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 /* ROBOTO FONT LINK END */
@@ -18,12 +20,10 @@ body {
     background: #f5f5f9;
 }
 
-/* HOMEPAGE DESIGN START  */
-
-
 /* VERTICAL NAV ACCORDION DESIGN START  */
 
 .body-of-home .vertical-accordion-nav {
+    padding-top: 2rem;
     background: #038791;
 }
 
@@ -39,6 +39,21 @@ body {
     display: none;
 }
 
+.accordion{
+    --bs-accordion-bg : transparent !important;
+    --bs-accordion-border-width: 0;
+}
+
+
+.accordion-button{
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+}
+
+
 
 .accordion-item {
     background-color: transparent !important;
@@ -48,5 +63,11 @@ body {
 
 /* VERTICAL NAV ACCORDION DESIGN START  */
 
+/* NAVBAR DESIGN START  */
+
+.bi-person-circle{
+    font-size: 4rem !important;
+}
+/* NAVBAR DESIGN END */
 
 /* HOMEPAGE DESIGN END */
