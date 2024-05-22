@@ -21,89 +21,92 @@
     <!-- BOOTSTRAP ICON CDN END -->
 
     <!-- CUSTOM CSS START  -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/login.css" />
     <!-- CUSTOM CSS END -->
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <div class="row w-100 vh-100">
-        <div class="col m-auto">
-          <div class="card mx-auto py-5 px-3 shadow border-0 rounded-4">
-            <div class="card-body">
-              <div class="logo-container text-center mt-3 mb-5">
-                <img
-                  src="	https://app.wanotifier.com/wp-content/themes/wanotifier-app/assets/images/logo.svg"
-                  alt="logo"
-                />
-              </div>
-              <div>
-                <h2 class="mb-3">Welcome back! 👋</h2>
-                <p class="mb-5">Please sign-in to access your account.</p>
-              </div>
-              <div>
-                <form>
-                  <div
-                    class="mb-3 text-start d-flex flex-column justify-content-center align-items-center"
-                  >
-                    <label
-                      for="exampleInputEmail1"
-                      class="form-label align-self-start c-c-email-label"
-                      >EMAIL</label
+    <div id="login-section">
+      <div class="container-fluid text-center">
+        <div class="row w-100 vh-100">
+          <div class="col m-auto">
+            <div class="card mx-auto py-5 px-3 shadow border-0 rounded-4">
+              <div class="card-body">
+                <div class="logo-container text-center mt-3 mb-5">
+                  <img
+                    src="	https://app.wanotifier.com/wp-content/themes/wanotifier-app/assets/images/logo.svg"
+                    alt="logo"
+                  />
+                </div>
+                <div>
+                  <h2 class="mb-3">Welcome back! 👋</h2>
+                  <p class="mb-5">Please sign-in to access your account.</p>
+                </div>
+                <div>
+                  <form>
+                    <div
+                      class="mb-3 text-start d-flex flex-column justify-content-center align-items-center"
                     >
-                    <input
-                      type="email"
-                      class="form-control form-control-lg p-3 mb-3"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
-                      placeholder="Enter your email"
-                    />
-                  </div>
-                  <div class="mb-3">
-                    <div class="d-flex justify-content-between mx-auto">
                       <label
-                        for="exampleInputPassword1"
-                        class="form-label c-c-password-label"
-                        >PASSWORD</label
+                        for="exampleInputEmail1"
+                        class="form-label align-self-start c-c-email-label"
+                        >EMAIL</label
                       >
-                      <a href="#">Forgot Password?</a>
+                      <input
+                        type="email"
+                        class="form-control form-control-lg p-3 mb-3"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                        placeholder="Enter your email"
+                      />
                     </div>
-                    <div class="mx-auto">
-                      <div class="input-group input-group-merge">
-                        <input
-                          type="password"
-                          id="password"
-                          class="form-control form-control-lg py-3"
-                          name="password"
-                          placeholder="············"
-                          aria-describedby="password"
-                        />
-                        <span class="input-group-text cursor-pointer"
-                          ><a href="#"><i class="bi bi-eye-slash-fill"></i></a
-                        ></span>
+                    <div class="mb-3">
+                      <div class="d-flex justify-content-between mx-auto">
+                        <label
+                          for="exampleInputPassword1"
+                          class="form-label c-c-password-label"
+                          >PASSWORD</label
+                        >
+                        <a href="#">Forgot Password?</a>
+                      </div>
+                      <div class="mx-auto">
+                        <div class="input-group input-group-merge">
+                          <input
+                            type="password"
+                            id="password"
+                            class="form-control form-control-lg py-3"
+                            name="password"
+                            placeholder="············"
+                            aria-describedby="password"
+                          />
+                          <span class="input-group-text cursor-pointer"
+                            ><a href="#"><i class="bi bi-eye-slash-fill"></i></a
+                          ></span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="my-3 form-check text-start">
-                    <input
-                      type="checkbox"
-                      class="form-check-input"
-                      id="exampleCheck1"
-                    />
-                    <label class="form-check-label mb-3" for="exampleCheck1"
-                      >Remember Me</label
+                    <div class="my-3 form-check text-start">
+                      <input
+                        type="checkbox"
+                        class="form-check-input"
+                        id="exampleCheck1"
+                      />
+                      <label class="form-check-label mb-3" for="exampleCheck1"
+                        >Remember Me</label
+                      >
+                    </div>
+                    <button type="submit" class="btn w-100 shadow">
+                      Sign in
+                    </button>
+                  </form>
+                  <div class="mt-4">
+                    <p
+                      class="d-flex flex-column flex-md-row gap-2 justify-content-center"
                     >
+                      <span>New on WANotifier? </span>
+                      <a href="#"> Create your free account</a>
+                    </p>
                   </div>
-                  <button type="submit" class="btn w-100 shadow">
-                    Sign in
-                  </button>
-                </form>
-                <div class="mt-4">
-                  <p
-                    class="d-flex flex-column flex-md-row gap-2 justify-content-center"
-                  >
-                    <span>New on WANotifier? </span>
-                    <a href="#"> Create your free account</a>
-                  </p>
                 </div>
               </div>
             </div>

@@ -1,87 +1,68 @@
-/* ROBOTO FONT LINK START  */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
-/* ROBOTO FONT LINK END */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.6rem;
-  background: #f5f5f9;
-}
-
-.card {
+/* login page start */
+#login-section .card {
   width: 450px;
 }
 
-.logo-container img {
+#login-section .logo-container img {
   max-width: 200px;
   width: 100%;
 }
 
-.card h2 {
+#login-section .card h2 {
   color: #566a7f;
   font-size: 2.4rem;
   line-height: 2.6rem;
   font-weight: 500;
 }
 
-.card h2 ~ p {
+#login-section .card h2 ~ p {
   color: #697a8d;
   font-size: 1.5rem;
   line-height: 2.3rem;
 }
 
-.c-c-password-label,
-.c-c-email-label {
+#login-section .c-c-password-label,
+#login-section .c-c-email-label {
   color: #566a7f;
   font-size: 1.2rem;
   line-height: 1.84rem;
   font-weight: 500;
 }
 
-input[type="password"]::placeholder,
-input[type="email"]::placeholder {
+#login-section input[type="password"]::placeholder,
+#login-section input[type="email"]::placeholder {
   color: #697a8d;
   font-size: 1.5rem;
   line-height: 2.3rem;
 }
 
-.c-c-password-label ~ a {
+#login-section .c-c-password-label ~ a {
   color: #1ca1aa;
   font-size: 1.3rem;
   line-height: 2rem;
   text-decoration: none;
 }
 
-.bi-eye-slash-fill {
+#login-section .bi-eye-slash-fill {
   font-size: 1.5rem;
   line-height: 1.5rem;
   color: #697a8d;
 }
 
-.form-check-label {
+#login-section .form-check-label {
   color: #697a8d;
   font-size: 1.5rem;
   line-height: 2.3rem;
 }
 
-button[type="submit"] {
+#login-section button[type="submit"] {
   font-size: 1.5rem;
   line-height: 2.3rem;
   color: #fff;
   background: #0396a1;
 }
 
-button[type="submit"]:hover {
+#login-section button[type="submit"]:hover {
   color: #fff;
   background: #038791;
   transform: scale(1.01);
@@ -89,15 +70,14 @@ button[type="submit"]:hover {
   transition: all 0.2s;
 }
 
-form ~ div {
+#login-section form ~ div {
   font-size: 1.5rem;
   line-height: 2.3rem;
   color: #697a8d;
 }
 
-form ~ div a {
+#login-section form ~ div a {
   font-size: 1.5rem;
   line-height: 2.3rem;
   color: #1ca1aa;
 }
-

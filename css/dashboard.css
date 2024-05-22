@@ -1,0 +1,52 @@
+.dashboard .vertical-accordion-nav {
+  padding-top: 2rem;
+  background: #038791;
+}
+
+.dashboard .logo svg {
+  width: 60%;
+}
+
+.vertical-nav {
+  height: 100vh;
+}
+
+.accordion-btn-header-custom-class .accordion-button::after {
+  display: none;
+}
+
+.accordion {
+  --bs-accordion-bg: transparent !important;
+  --bs-accordion-border-width: 0;
+}
+
+.accordion-button {
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #052c65;
+}
+
+.accordion-item {
+  /* background-color: transparent !important; */
+  border: none;
+}
+
+.accordion-button::after {
+  background-image: initial !important;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: initial !important;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23052c65'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.nav-custom-class ul li a {
+  color: rgb(5, 44, 101) !important;
+}
+
+.bi-person-circle {
+  font-size: 4rem !important;
+}
