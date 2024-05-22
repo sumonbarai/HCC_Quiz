@@ -1,0 +1,40 @@
+.my-table{
+    height: 80vh;
+}
+
+#draw-list .my-btn{
+    font-size: 1.5rem;
+}
+
+#draw-list tr .my-username{
+    text-align: start !important;
+    margin-left: 4rem;
+}
+
+#draw-list .my-table th{
+    text-align: center;
+}
+
+#draw-list .my-table td{
+    text-align: center;
+}
+
+#draw-list .bg-color{
+    background-color: var(--jowel-background-color) !important;
+}
+
+#draw-list .border-color{
+    border-color: var(--jowel-border-color) !important;
+}
+
+#draw-list .text-color{
+    color: var(--jowel-text-color) !important;
+}
+
+#draw-list .icon-color{
+    color: var(--jowel-icon-color) !important;
+}
+
+#draw-list tr td{
+    padding-top: 2.5rem !important;
+}
