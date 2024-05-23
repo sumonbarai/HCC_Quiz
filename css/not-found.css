@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #C3DEEF;
+}
+.card-section{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card{
+   height: 250px;
+   position: relative;
+   margin: auto;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   overflow: hidden;
+   
+   
+
+}
+.card .card-bar{
+    background-color: #0059FD;
+}
+.card .card-bar div{
+    width: 10px;
+    height: 10px;
+    gap: 5px;
+    border-radius: 50%;
+    background-color: white;
+
+    
+
+}
+
+.card .card-body .error-code{
+    font-size: 7.5rem !important;
+    letter-spacing: 10px !important;
+}
+.card .card-body .error-des{
+    font-size: 1.5rem !important;
+}
+.card .img-part{
+    position: absolute;
+    margin-top: 14.5rem !important;
+    margin-left: -27px !important;
+    
+
+}
+.card .img-part img{
+    width: 100%;
+    
+}
