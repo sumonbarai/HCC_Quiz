@@ -1,5 +1,5 @@
 #create-draw {
-    background: #7E6ACB !important;
+    /* background: #7E6ACB !important; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,8 +7,9 @@
 }
 
 #create-draw .form-custom-class{
-    flex-basis: 90%;
+    flex-basis: 100%;
     gap: 10%;
+    height: 90vh;
 }
 
 @media (max-width: 991px) {
@@ -48,9 +49,9 @@
 }
 
 #create-draw .form-container form button{
-    background: #7E6ACB;
+    background: #038791;
 }
 
 #create-draw .form-container form button:hover{
-    background: rgba(126, 106, 203,.9);
+    background: rgba(3, 135, 145,.9);
 }
