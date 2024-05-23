@@ -9,7 +9,7 @@
 #create-draw .form-custom-class{
     flex-basis: 100%;
     gap: 10%;
-    height: 90vh;
+    height: 80vh;
 }
 
 @media (max-width: 991px) {
