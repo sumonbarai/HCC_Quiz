@@ -5,12 +5,18 @@
 :root,
 [data-bs-theme="light"] {
   --bs-primary-bg-subtle: #ffffff;
+  --jowel-background-color: #0396a1;
+  --jowel-border-color: #0396a1;
+  --jowel-text-color: #0396a1;
+  --jowel-icon-color: #0396a1;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
 }
 
 html {
