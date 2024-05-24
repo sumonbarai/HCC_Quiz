@@ -1,0 +1,10 @@
+.error{
+    font-size: 80px;
+    color: #cecdcd;
+}
+
+.vertical-line{
+    width: 1px;
+    height: 200px;
+    background-color: #ddd;
+}
