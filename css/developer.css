@@ -1,10 +1,10 @@
 #timeline {
-  background-color: purple;
+  background-color: #f5f5f9;
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding:50px 20px;
+  padding: 50px 20px;
 }
 .timeline-container {
   position: relative;
@@ -30,7 +30,7 @@
   height: 25px;
   top: 10px;
   background-color: white;
-  border: 5px solid palegreen;
+  border: 5px solid #0396a1;
   border-radius: 50%;
   z-index: 1;
 }
@@ -85,7 +85,7 @@
   font-weight: 600;
 }
 .content span {
-  background-color: purple;
+  background-color: #0396a1;
   color: white;
   padding: 5px;
   border-radius: 5px;
