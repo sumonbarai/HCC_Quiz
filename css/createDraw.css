@@ -1,57 +1,57 @@
 #create-draw {
-    /* background: #7E6ACB !important; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
+  /* background: #7E6ACB !important; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
 }
 
-#create-draw .form-custom-class{
-    flex-basis: 100%;
-    gap: 10%;
-    height: 80vh;
+#create-draw .form-custom-class {
+  flex-basis: 100%;
+  gap: 10%;
+  height: 80vh;
 }
 
 @media (max-width: 991px) {
-    #create-draw .form-custom-class{
-        flex-basis: 100%;
-        gap: 0;
-    }
+  #create-draw .form-custom-class {
+    flex-basis: 100%;
+    gap: 0;
+  }
 }
 
-#create-draw .form-container form > div{
-    position: relative;
+#create-draw .form-container form > div {
+  position: relative;
 }
 
-#create-draw .form-container h2{
-    color: #052c65;
+#create-draw .form-container h2 {
+  color: #052c65;
 }
 
-#create-draw .form-container form > div i{
-    position: absolute;
-    left: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #6c757d;
+#create-draw .form-container form > div i {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
 }
 
-#create-draw .form-container form > div i ~ input{
-    padding-left: 3rem !important;
+#create-draw .form-container form > div i ~ input {
+  padding-left: 3rem !important;
 }
 
 #create-draw .form-container form > div input,
 #create-draw .form-container form > div textarea {
-    background: #E6E6E6;
+  background: #e6e6e6;
 }
 
 #create-draw input[type="file"] {
-    color: #6c757d;
+  color: #6c757d;
 }
 
-#create-draw .form-container form button{
-    background: #038791;
+#create-draw .form-container form button {
+  background: #038791;
 }
 
-#create-draw .form-container form button:hover{
-    background: rgba(3, 135, 145,.9);
+#create-draw .form-container form button:hover {
+  background: rgba(3, 135, 145, 0.9);
 }
