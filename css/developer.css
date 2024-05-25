@@ -1,0 +1,124 @@
+#timeline {
+  background-color: purple;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding:50px 20px;
+}
+.timeline-container {
+  position: relative;
+}
+.timeline-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background-color: white;
+  left: 50%;
+}
+.timeline-box {
+  width: 50%;
+  background-color: inherit;
+  position: relative;
+}
+.timeline-box::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 10px;
+  background-color: white;
+  border: 5px solid palegreen;
+  border-radius: 50%;
+  z-index: 1;
+}
+.left {
+  left: 0;
+  padding-right: 50px;
+}
+.left::after {
+  right: -20px;
+}
+.left::before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 20px;
+  right: 39px;
+  border: 10px solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+  z-index: 1;
+}
+.right {
+  left: 50%;
+  padding-left: 50px;
+}
+.right::after {
+  left: -15px;
+}
+.right::before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 20px;
+  left: 39px;
+  border: 10px solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  z-index: 1;
+}
+.content {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+}
+.content h3 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.content span {
+  background-color: purple;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+.content p {
+  margin-top: 15px;
+  font-size: 1.6rem;
+}
+
+/* Responsive */
+@media (max-width: 790px) {
+  .timeline-container::after {
+    left: 35px;
+  }
+  .timeline-box {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 50px;
+    margin-bottom: 30px;
+  }
+  .timeline-box::after {
+    left: 0;
+  }
+  .right,
+  .left {
+    left: 0;
+  }
+
+  .right::before,
+  .left::before {
+    left: 39px;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+}
