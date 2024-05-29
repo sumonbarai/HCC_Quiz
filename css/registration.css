@@ -1,0 +1,76 @@
+#registration-form {
+    /* background: #7E6ACB !important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+#registration-form .form-custom-class {
+    gap: 10%;
+    /* height: 80vh; */
+}
+
+#registration-form .form-container form > div {
+    position: relative;
+}
+
+#registration-form .form-container h2 {
+    color: #052c65;
+}
+
+#registration-form .form-container h2 span {
+    border-bottom: .2rem solid #052c65;
+    border-radius:.2rem ;
+}
+
+#registration-form .form-container form > div i:not(i.bi-eye-fill) {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+    font-size: 1.8rem;
+}
+
+#registration-form .form-container form > div i.bi-eye-fill {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+    font-size: 1.8rem;
+}
+
+#registration-form .form-container form > div i ~ input {
+    padding-left: 3rem !important;
+}
+
+#registration-form .form-container form > div input,
+#registration-form .form-container form > div textarea {
+    background: #e6e6e6;
+}
+
+#registration-form .form-container form > div input::placeholder,
+#registration-form .form-container form > div textarea::placeholder {
+    font-size: 1.8rem;
+    padding-left: .7rem;
+}
+
+#registration-form input[type="file"] {
+    color: #6c757d;
+    font-size: 1.8rem;
+}
+
+#registration-form input[type="checkbox"] ~ label {
+    color: #6c757d;
+}
+
+#registration-form .form-container form button {
+    background: #038791;
+}
+
+#registration-form .form-container form button:hover {
+    background: rgba(3, 135, 145, 0.9);
+}
+
